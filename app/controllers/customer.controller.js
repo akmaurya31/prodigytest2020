@@ -27,7 +27,7 @@ const dbConfig = require("../config/db.config.js");
 
        
        
-       res.send(data);
+       //res.send(data);
         return;     
 
       });
@@ -42,7 +42,7 @@ const dbConfig = require("../config/db.config.js");
       }
       Customer.delete_bank(postarray.email,postarray.bank_id,(err, data) => {
          
-       res.send(data);
+       //res.send(data);
         return;     
 
       });
